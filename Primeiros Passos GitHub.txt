@@ -4,5 +4,5 @@ Sequência de comandos no terminal para salvar uma alteração ou enviar um novo pr
 3.	Agora copie e/ou altere sos arquivos para a pasta criada em seu PC. (Normalmente no Windows fica dentro da pasta C:/users/xxxusuario/repositório. Ex.: C:\Users\usuario\aprendizado_GitHub );
 4.	No terminal, vá até a pasta do repositório utilizando o comando: [cd aprendizado_GitHub]. Depois digite [git add .] e depois o comando [git commit –m “mensagem indicando o objetivo desta importação”] ;
 5.	Para enviar ao seu repositório do GitHub na nuvem, execute o comando: [git push], caso seja necessário, valide seu usuário e senha do GitHub;
-6.	Para efetuar novas alterações em projetos que estão no repositório, é necessário efetuar o comando [git pull] para baixar as alterações e repositório atualizado para seu pc.
+6.	Para efetuar novas alterações em projetos que estão no repositório, é necessário efetuar o comando [git pull] para baixar as alterações e repositório atualizado para seu pc;
 
