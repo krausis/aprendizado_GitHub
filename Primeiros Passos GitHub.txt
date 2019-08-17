@@ -10,11 +10,11 @@ Resumo de comandos:
 2.	cd aprendizado_GitHub
 3. git config --global user.name "Kleber Rausis" (para configurar inicialmente o git após instalar)
 4. git config --global user.email "rausis.kleber@gmail.com" (para configurar inicialmente o git após instalar)
-3. git init (Cria o repositório na pasta atual)
-4. git add [nome do arquivo] (adiciona o arquivo)
-5. git add . (adiciona tudo)
-6. git commit -m "mensagem de referência" (comita arquivos adicionados)
-7. git commit -a -m "mensagem de referência" (adiciona e comita arquivos)
-8. gitk (visualiza o histórico via aplicativo detalhado)
-9. git remote add origin https://krausis@bitbucket.org/krausis/brbombacha.git (link obtido no site do repositório)
-10. git push -u origin master
+5. git init (Cria o repositório na pasta atual)
+6. git add [nome do arquivo] (adiciona o arquivo)
+7. git add . (adiciona tudo)
+8. git commit -m "mensagem de referência" (comita arquivos adicionados)
+9. git commit -a -m "mensagem de referência" (adiciona e comita arquivos)
+10. gitk (visualiza o histórico via aplicativo detalhado)
+11. git remote add origin https://krausis@bitbucket.org/krausis/brbombacha.git (link obtido no site do repositório)
+12. git push -u origin master
