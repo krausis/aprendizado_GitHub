@@ -1,14 +1,16 @@
-Sequência de comandos no terminal para salvar uma alteração ou enviar um novo projeto ao GitHub:
-1. Para novos projetos, acesse o site do GitHub, crie um novo repositório;
-2. Para clonar este novo repositório ou outro repositório em seu PC, copie o link disponibilizado em " Clone or download " e cole no terminal após o comando [git clone], Ex.: git clone https://github.com/krausis/aprendizado_GitHub.git ;
-3. Agora copie e/ou altere os arquivos para a pasta criada em seu PC. (Por defalt no Windows fica dentro da pasta [c:/users/usuario/repositório]);
-4. No terminal, vá até a pasta do repositório utilizando o comando: [cd aprendizado_GitHub]. Depois digite [git add .] e depois o comando [git commit –m “mensagem indicando o objetivo desta importação”] ;
-5. Para enviar ao seu repositório do GitHub na nuvem, execute o comando: [git push], caso seja necessário, valide seu usuário e senha do GitHub;
-6. Para efetuar novas alterações em projetos que estão no repositório, é necessário efetuar o comando [git pull] para baixar as alterações e repositório atualizado para seu pc;
+SequÃªncia de comandos no terminal para salvar uma alteraÃ§Ã£o ou enviar um novo projeto ao GitHub:
+1. Para novos projetos, acesse o site do GitHub, crie um novo repositÃ³rio;
+2. Para clonar este novo repositÃ³rio ou outro repositÃ³rio em seu PC, copie o link disponibilizado em " Clone or download " e cole no terminal apÃ³s o comando [git clone], Ex.: git clone https://github.com/krausis/aprendizado_GitHub.git ;
+3. Agora copie e/ou altere os arquivos para a pasta criada em seu PC. (Por defalt no Windows fica dentro da pasta [c:/users/usuario/repositÃ³rio]);
+4. No terminal, vÃ¡ atÃ© a pasta do repositÃ³rio utilizando o comando: [cd aprendizado_GitHub]. Depois digite [git add .] e depois o comando [git commit â€“m â€œmensagem indicando o objetivo desta importaÃ§Ã£oâ€] ;
+5. Para enviar ao seu repositÃ³rio do GitHub na nuvem, execute o comando: [git push], caso seja necessÃ¡rio, valide seu usuÃ¡rio e senha do GitHub;
+6. Para efetuar novas alteraÃ§Ãµes em projetos que estÃ£o no repositÃ³rio, Ã© necessÃ¡rio efetuar o comando [git pull] para baixar as alteraÃ§Ãµes e repositÃ³rio atualizado para seu pc;
 Resumo de comandos:
 1.	git clone https://github.com/krausis/aprendizado_GitHub.git
 2.	cd aprendizado_GitHub
-3.	git add .
-4.	git commit –m “mensagem indicando o objetivo desta importação”
-5.	git push (para enviar ao repositório na núvem)
-6.	git pull (para atualizar seu repositório local)
+3. git init (Cria o repositÃ³rio na pasta atual)
+4. git add [nome do arquivo] (adiciona o arquivo)
+5. git add . (adiciona tudo)
+6. git commit -m "mensagem de referÃªncia" (comita arquivos adicionados)
+7. git commit -a -m "mensagem de referÃªncia" (adiciona e comita arquivos)
+8. gitk (visualiza o histÃ³rico via aplicativo detalhado)
