@@ -8,6 +8,8 @@ Sequência de comandos no terminal para salvar uma alteração ou enviar um novo
 Resumo de comandos:
 1.	git clone https://github.com/krausis/aprendizado_GitHub.git
 2.	cd aprendizado_GitHub
+3. git config --global user.name "Kleber Rausis" (para configurar inicialmente o git após instalar)
+4. git config --global user.email "rausis.kleber@gmail.com" (para configurar inicialmente o git após instalar)
 3. git init (Cria o repositório na pasta atual)
 4. git add [nome do arquivo] (adiciona o arquivo)
 5. git add . (adiciona tudo)
